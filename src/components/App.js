@@ -1,11 +1,12 @@
 import '../styles/App.css';
+import cover from '../styles/cover.jpg';
 
-function App() {
+import ContentContainer from './content/ContentContainer';
+
+const App = () => {
   return (
-    <div>
-      <header>
-        Make changes here!
-      </header>
+    <div className="parent">
+      <ContentContainer />
     </div>
   );
 }
