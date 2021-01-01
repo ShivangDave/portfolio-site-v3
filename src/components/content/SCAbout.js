@@ -8,32 +8,36 @@ const SCAbout = () => {
   return (
     <div className="sc-about">
 
-      <span className="sc-about-name">
-        🆂🅷🅸🆅🅰🅽🅶
-        <hr/>
-      </span>
+      <span className="sc-name-social-container">
 
-      <span className="sc-social">
+        <span className="sc-about-name">
+          🆂🅷🅸🆅🅰🅽🅶
+          <hr/>
+        </span>
 
-        <a href={'https://github.com/shivangdave'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
-          <img src={github} alt={''} />
-        </a>
+        <span className="sc-social">
 
-        <a href={'https://shivang-dave.medium.com/'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
-          <img src={medium} alt={''} />
-        </a>
+          <a href={'https://github.com/shivangdave'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
+            <img src={github} alt={''} />
+          </a>
 
-        <a href={'https://music.apple.com/profile/shivangdave'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
-          <img src={music} alt={''} />
-        </a>
+          <a href={'https://shivang-dave.medium.com/'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
+            <img src={medium} alt={''} />
+          </a>
 
-        <a href={'https://twitter.com/@___Shivang___'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
-          <img src={twitter} alt={''} />
-        </a>
+          <a href={'https://music.apple.com/profile/shivangdave'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
+            <img src={music} alt={''} />
+          </a>
 
-        <a href={'https://linkedin.com/in/dshivang'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
-          <img src={linkedin} alt={''} />
-        </a>
+          <a href={'https://twitter.com/@___Shivang___'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
+            <img src={twitter} alt={''} />
+          </a>
+
+          <a href={'https://linkedin.com/in/dshivang'} target={'_blank'} rel="noreferrer" className="sc-social-btns">
+            <img src={linkedin} alt={''} />
+          </a>
+
+        </span>
 
       </span>
     </div>

@@ -29,7 +29,7 @@ body {
 
 .sc-about {
   display: flex;
-  flex-direction: column;
+
 
   width: 50%;
 
@@ -43,32 +43,50 @@ body {
   justify-content: center;
 
   color: white;
-  font-size: 50px;
+  font-size: 4vw;
 
   background-color: rgba(255,255,255,0.2);
 }
 
+.sc-name-social-container {
+
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  word-wrap: break-word;
+
+  align-items: center;
+  justify-content: center;
+}
+
 .sc-about-name {
+  max-width: 100%;
 }
 
 .sc-social {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .sc-social-btns {
-  height: 50px;
-  width: 50px;
+  height: 2.5vw;
+  width: 2.5vw;
 
   background-color: Transparent;
   border: 0px;
   outline: none;
   cursor: pointer;
 
-  margin-left: 10px;
 }
 
 .sc-social-btns img {
-  height: 40px;
-  width: 40px;
+  height: 100%;
+  width: 100%;
 }
 
 .dc-main {
