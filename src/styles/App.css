@@ -13,7 +13,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
-  background-image: url(./cover.jpg);
+  /* background-image: url(./cover.jpg); */
 }
 
 .parent-overlay {
@@ -56,17 +56,19 @@ body {
 
 .sc-social-btns {
   height: 50px;
-  width: 60px;
+  width: 50px;
 
   background-color: Transparent;
   border: 0px;
   outline: none;
   cursor: pointer;
+
+  margin-left: 10px;
 }
 
 .sc-social-btns img {
-  height: 50px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .dc-main {
