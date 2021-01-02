@@ -13,11 +13,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
-  /* background-image: url(./cover.jpg); */
+  background-image: url(./cover.jpg);
 }
 
 .parent-overlay {
   display: flex;
+  flex-wrap: wrap;
 
   height: 100%;
   width: 100%;
@@ -29,7 +30,6 @@ body {
 
 .sc-about {
   display: flex;
-
 
   width: 50%;
 
@@ -81,7 +81,6 @@ body {
   border: 0px;
   outline: none;
   cursor: pointer;
-
 }
 
 .sc-social-btns img {
@@ -102,4 +101,23 @@ body {
   justify-content: center;
 
   background-color: rgba(1,1,1,0.2);
+}
+
+@media screen and (max-width: 500px) {
+  .sc-about {
+    height: 300px !important;
+    width: 100% !important;
+
+    position: relative !important;
+    font-size: 8vw !important;
+  }
+
+  .sc-social-btns {
+    height: 8vw !important;
+    width: 8vw !important;
+  }
+
+  .dc-main {
+    width: 100% !important;
+  }
 }
