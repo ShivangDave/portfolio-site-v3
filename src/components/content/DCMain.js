@@ -1,5 +1,4 @@
 import About from './DC/About';
-import Projects from './DC/Projects';
 import Skills from './DC/Skills';
 
 const DCMain = () => {
