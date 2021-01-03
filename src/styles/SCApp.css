@@ -13,7 +13,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
-  /* background-image: url(./cover.jpg); */
+  background-image: url(./imgs/covers/cover.png);
 }
 
 .parent-overlay {
@@ -25,7 +25,7 @@ body {
 
   flex-flow: wrap;
 
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.2);
 }
 
 .sc-about {
@@ -88,7 +88,7 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   .sc-about {
     height: 300px !important;
     width: 100% !important;

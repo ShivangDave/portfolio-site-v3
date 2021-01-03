@@ -1,8 +1,8 @@
-import github from '../../styles/imgs/github-144.png';
-import medium from '../../styles/imgs/medium-144.png';
-import music from '../../styles/imgs/music-100.png';
-import twitter from '../../styles/imgs/twitter-144.png';
-import linkedin from '../../styles/imgs/linkedin-144.png';
+import github from '../../styles/imgs/social/github-144.png';
+import medium from '../../styles/imgs/social/medium-144.png';
+import music from '../../styles/imgs/social/music-100.png';
+import twitter from '../../styles/imgs/social/twitter-144.png';
+import linkedin from '../../styles/imgs/social/linkedin-144.png';
 
 const SCAbout = () => {
   return (

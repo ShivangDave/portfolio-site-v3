@@ -1,24 +1,17 @@
 import About from './DC/About';
+import Education from './DC/Education';
 
 const DCMain = () => {
   return (
     <div className="dc-main">
       <div className="dc-main-grid">
-        <About />
-        <hr/>
 
         <About />
+        <hr className="dc-hr"/>
 
-        <hr/>
-        <About />
+        <Education />
+        <hr className="dc-hr"/>
 
-        <hr/>
-        <About />
-
-        <hr/>
-        <About />
-
-        <hr/>
         © All Rights Reserved.
       </div>
     </div>
