@@ -1,5 +1,5 @@
-import '../styles/App.css';
-import cover from '../styles/cover.jpg';
+import '../styles/SCApp.css';
+import '../styles/DCApp.css';
 
 import ContentContainer from './content/ContentContainer';
 

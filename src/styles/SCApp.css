@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-image: url(./imgs/covers/cover.png);
+}
+
+.parent-overlay {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 100%;
+  width: 100%;
+
+  flex-flow: wrap;
+
+  background-color: rgba(0,0,0,0.2);
+}
+
+.sc-about {
+  display: flex;
+
+  width: 50%;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1;
+
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 4vw;
+
+  background-color: rgba(255,255,255,0.2);
+}
+
+.sc-name-social-container {
+
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  word-wrap: break-word;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.sc-about-name {
+  max-width: 100%;
+}
+
+.sc-social {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sc-social-btns {
+  height: 2.5vw;
+  width: 2.5vw;
+
+  background-color: Transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.sc-social-btns img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .sc-about {
+    height: 300px !important;
+    width: 100% !important;
+
+    position: relative !important;
+    font-size: 8vw !important;
+  }
+
+  .sc-social-btns {
+    height: 8vw !important;
+    width: 8vw !important;
+  }
+}
