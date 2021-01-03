@@ -1,5 +1,6 @@
 import About from './DC/About';
-import Education from './DC/Education';
+import Projects from './DC/Projects';
+import Skills from './DC/Skills';
 
 const DCMain = () => {
   return (
@@ -9,7 +10,7 @@ const DCMain = () => {
         <About />
         <hr className="dc-hr"/>
 
-        <Education />
+        <Skills />
         <hr className="dc-hr"/>
 
         © All Rights Reserved.

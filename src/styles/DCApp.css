@@ -125,6 +125,9 @@ a.resume-btn {
   cursor: pointer;
 }
 
+/* Skills Specific CSS */
+
+
 @media screen and (max-width: 780px) {
   .dc-main {
     width: 100% !important;
