@@ -1,5 +1,6 @@
 import About from './DC/About';
 import Skills from './DC/Skills';
+import Projects from './DC/Projects';
 
 const DCMain = () => {
   return (
@@ -9,6 +10,7 @@ const DCMain = () => {
         <About />
         <hr className="dc-hr"/>
 
+        <Projects />
         <Skills />
         <hr className="dc-hr"/>
 
