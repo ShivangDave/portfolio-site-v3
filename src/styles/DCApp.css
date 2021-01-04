@@ -127,9 +127,109 @@ a.resume-btn {
 
 /* Skills Specific CSS */
 
+.skills-parent {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.skills-parent img {
+  width: 50px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+
+.projects-parent {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 15vw;
+  max-width: 160px;
+
+  margin: 10px;
+  padding: 5px;
+
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projects-parent img {
+  width: 12vw;
+  height: 11vw;
+
+  max-width: 150px;
+  max-height: 150px;
+
+  margin: 5px;
+  border-radius: 5px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-card p {
+  margin: 0px;
+  max-width: 150px;
+
+  word-wrap: break-word;
+}
+
+.pinfo-container {
+  display: flex;
+
+  height: 40px;
+  width: 100%;
+  max-width: 150px;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pinfo-container a {
+  color: white;
+  text-decoration: none;
+  outline: none;
+
+  width: 25px;
+  height: 25px;
+
+  cursor: pointer;
+}
+
+.pinfo-container img {
+  width: 25px;
+  height: 25px;
+
+  margin: 0px;
+
+  cursor: pointer;
+}
 
 @media screen and (max-width: 780px) {
   .dc-main {
     width: 100% !important;
+  }
+
+  .project-card p {
+    font-size: 3vw;
   }
 }
