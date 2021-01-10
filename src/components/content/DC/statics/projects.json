@@ -6,12 +6,12 @@
       "desc": {
         "name": "E2EE Photo Sharing App",
         "status": "WIP",
-        "url": "https://github.com/ShivangDave/photoapp-api",
-        "tags": [
-          "rails", "rest", "travis", "heroku",
-          "rspec", "docker"
-        ]
-      }
+        "url": "https://github.com/ShivangDave/photoapp-api"
+      },
+      "tags": [
+        "rails", "rest", "travis", "heroku",
+        "rspec", "docker"
+      ]
     },
     {
       "title": "E2EE Photoapp",

@@ -1,4 +1,4 @@
-export default {
+const skills = {
   react: 'https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png',
   rails: 'https://avatars.githubusercontent.com/u/4223',
   node: 'https://ih1.redbubble.net/image.1637717834.1604/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg',
@@ -29,3 +29,5 @@ export default {
   linux: 'https://cdns.iconmonstr.com/wp-content/assets/preview/2013/240/iconmonstr-linux-os-1.png',
   windows: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDASZrCJ1AbA8chMwxR5R0dLFhCPfT0FgOag&usqp=CAU'
 }
+
+export default  skills;
